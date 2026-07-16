@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>For Reamae</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Nunito:wght@300;400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- SCREEN 1: Password gate -->
+<section id="gate" class="screen active">
+  <div class="gate-card">
+    <p class="eyebrow">a message for you</p>
+    <h1 class="title">Reamae</h1>
+    <p class="gate-hint">enter the code</p>
+    <input type="text" id="passwordInput" placeholder="••••••••" inputmode="numeric" autocomplete="off">
+    <button id="unlockBtn">Open</button>
+    <p class="gate-error" id="gateError">not quite &mdash; try again</p>
+  </div>
+</section>
+
+<!-- SCREEN 2: Envelope scene -->
+<section id="scene" class="screen">
+  <div class="envelope-wrap" id="envelopeWrap">
+    <div class="envelope" id="envelope">
+      <div class="envelope-back"></div>
+      <div class="envelope-flap"></div>
+      <div class="envelope-seal">✉️</div>
+    </div>
+    <p class="touch-label" id="touchLabel">Touch envelope.</p>
+  </div>
+</section>
+
+<!-- SCREEN 3: Letter -->
+<section id="letter" class="screen">
+  <div class="letter-card">
+    <p>I sincerely apologize for falling asleep without letting you know. I understand that unexpected silence can be worrying, and I never intended to leave you wondering.</p>
+
+    <p>I did update you when I got home from school, and I messaged you afterward. Around that time, I had already started feeling unwell. Since you hadn't replied yet, I thought I would just rest my eyes for a few minutes, but exhaustion caught up with me, and I ended up sleeping much longer than I had expected.</p>
+
+    <p>When I woke up, my condition had become noticeably worse. My entire body aches, and I feel like I'm burning with a fever. I honestly don't know what caused it because I was feeling completely fine earlier, but I'm taking care of myself and getting the rest I need.</p>
+
+    <p>I'm truly sorry if my silence caused you any concern. It was never a reflection of my willingness to talk to you or my regard for you. Sometimes, our bodies simply reach their limit before we even realize it, and I suppose that's what happened today. I hope you can forgive me, and thank you for understanding.</p>
+  </div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
